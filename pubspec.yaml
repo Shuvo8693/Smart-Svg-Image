@@ -1,0 +1,22 @@
+name: smart_svg_image
+description: "A Flutter widget that intelligently renders SVG images with enhanced compatibility. Automatically resolves common SVG rendering issues and provides seamless image display."
+version: 0.0.1
+homepage: https://github.com/yourusername/smart_svg_image
+repository: https://github.com/yourusername/smart_svg_image
+issue_tracker: https://github.com/yourusername/smart_svg_image/issues
+
+environment:
+  sdk: ^3.8.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
