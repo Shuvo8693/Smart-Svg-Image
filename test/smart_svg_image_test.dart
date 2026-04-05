@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:smart_svg_image/smart_svg_image.dart';
 
@@ -9,7 +10,7 @@ void main() {
         const MaterialApp(
           home: Scaffold(
             body: SmartSvgImage(
-              svgAssetPath: 'test.svg',
+              svgAssetPath: 'test/assets/test.svg',
               height: 100,
               width: 100,
             ),
@@ -25,14 +26,14 @@ void main() {
         const MaterialApp(
           home: Scaffold(
             body: SmartSvgImage(
-              svgAssetPath: 'test.svg',
+              svgAssetPath: 'test/assets/test.svg',
             ),
           ),
         ),
       );
 
       // Loading indicator should be present initially
-      expect(find.byType(CircularProgressIndicator), findsOneWidget);
+      expect(find.byType(CupertinoActivityIndicator), findsOneWidget);
     });
 
     test('SmartSvgImage constructor with required parameters', () {
