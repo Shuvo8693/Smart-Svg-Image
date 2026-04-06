@@ -1,4 +1,4 @@
-## 0.0.1
+## 0.0.2
 
 * Initial release of smart_svg_image
 * Smart rendering for SVG images with enhanced compatibility
