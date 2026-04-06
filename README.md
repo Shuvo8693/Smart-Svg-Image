@@ -5,6 +5,14 @@
 
 A Flutter widget that intelligently renders SVG images with enhanced compatibility. It automatically handles common SVG rendering issues and provides a seamless image display experience.
 
+## Common SVG Rendering Errors
+
+The image below demonstrates the types of SVG rendering issues this package solves:
+
+<p align="center">
+  <img src="img.png" alt="SVG Rendering Error Example" width="1061" style="max-width: 600px; height: auto;" />
+</p>
+
 ## Features
 
 - 🎯 **Smart Rendering**: Automatically detects the best way to render your SVG images
